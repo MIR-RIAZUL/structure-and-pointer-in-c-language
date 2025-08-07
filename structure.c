@@ -47,10 +47,21 @@ int main() {
 
 
 
-    printf("Person 1: Age = %d, Salary = %.2f\n", p1.age, p1.salary);
-    printf("Person 2: Age = %d, Salary = %.2f\n", p2.age, p2.salary);
-    printf("Person 3: Age = %d, Salary = %.2f\n", p3.age, p3.salary);
-    printf("Person 4: Age = %d, Salary = %.2f\n", p4.age, p4.salary);
+    // printf("Person 1: Age = %d, Salary = %.2f\n", p1.age, p1.salary);
+    // printf("Person 2: Age = %d, Salary = %.2f\n", p2.age, p2.salary);
+    // printf("Person 3: Age = %d, Salary = %.2f\n", p3.age, p3.salary);
+    // printf("Person 4: Age = %d, Salary = %.2f\n", p4.age, p4.salary);
+
+    if(p1.age== p2.age && p1.salary == p2.salary) {
+        printf("Age and salary of person 1 and person 2 are same\n");
+    } else {
+        printf("Age and salary of person 1 and person 2 are different\n");
+    }
+    if(p3.age== p4.age && p3.salary == p4.salary) {
+        printf("Age and salary of person 3 and person 4 are same\n");
+    } else {
+        printf("Age and salary of person 3 and person 4 are different\n");
+    }   
 
 
     return 0;
